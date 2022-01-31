@@ -3,6 +3,7 @@ name: deploy_backend
 on:
   push:
     branches: [ main ]
+    paths:
     - 'backend/**'
 
 env:
