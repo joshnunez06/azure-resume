@@ -1,1 +1,1 @@
-# Your frontend live here
+main.js contains script for visitor counter.
