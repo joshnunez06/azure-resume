@@ -10,6 +10,7 @@ using Newtonsoft.Json;
 using System.Net.Http;
 using System.Text;
 
+
 namespace Company.Function
 {
     public static class GetResumeCounter
@@ -22,6 +23,7 @@ namespace Company.Function
             ILogger log)
             
         {
+            //counter gets updated here
             log.LogInformation("C# HTTP trigger function processed a request.");
 
             updatedCounter = counter;
